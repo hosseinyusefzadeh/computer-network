@@ -1,4 +1,4 @@
-# Computer Network
+# Computer Networks
 
 In this repository, we aim at reviewing and learning computer networks concepts.
 
