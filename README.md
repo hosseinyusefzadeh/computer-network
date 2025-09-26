@@ -37,9 +37,12 @@ The goal of these models are to break down complex network communication into sm
 
 #### Physical Layer
 The lowest layer of the OSI reference model is the Physical Layer. It is responsible for the actual physical connection between the devices. The physical layer contains information in the form of bits.
+
 Physical Layer is responsible for transmitting individual bits from one node to the next.
+
 When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.
-ommon physical layer devices are Hub, Repeater, Modem, and Cables.
+
+Common physical layer devices are Hub, Repeater, Modem, and Cables.
 
 #### Data Link Layer
 
