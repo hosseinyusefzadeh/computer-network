@@ -50,7 +50,7 @@ Bit Rate Control: The Physical layer also defines the transmission rate i.e. the
 
 Physical Topologies: Physical layer specifies how the different, devices/nodes are arranged in a network i.e. bus topology, star topology, or mesh topology.
 
-ransmission Mode: Physical layer also defines how the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full duplex.
+Transmission Mode: Physical layer also defines how the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full duplex.
 
 #### Data Link Layer
 
