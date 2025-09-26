@@ -53,10 +53,51 @@ Physical Topologies: Physical layer specifies how the different, devices/nodes a
 Transmission Mode: Physical layer also defines how the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full duplex.
 
 #### Data Link Layer
+The data link layer is responsible for the node-to-node delivery of the message. The main function of this layer is to make sure data transfer is error-free from one node to another, over the physical layer.
 
+When a packet arrives in a network, it is the responsibility of the DLL to transmit it to the Host using its MAC address.
+
+Packet in the Data Link layer is referred to as Frame. Switches and Bridges are common Data Link Layer devices.
+
+The packet received from the Network layer is further divided into frames depending on the frame size of the NIC (Network Interface Card). DLL also encapsulates Sender and Receiver’s MAC address in the header.
+
+The Receiver’s MAC address is obtained by placing an ARP (Address Resolution Protocol) request onto the wire asking, "Who has that IP address?" and the destination host will reply with its MAC address.
+
+##### Functions of Data link Layer
+Framing: Framing is a function of the data link layer. It provides a way for a sender to transmit a set of bits that are meaningful to the receiver. This can be accomplished by attaching special bit patterns to the beginning and end of the frame.
+
+Physical Addressing: After creating frames, the Data link layer adds physical addresses (MAC addresses) of the sender and/or receiver in the header of each frame.
+
+Error Control: The data link layer provides the mechanism of error control in which it detects and retransmits damaged or lost frames.
+
+Flow Control: The data rate must be constant on both sides else the data may get corrupted thus, flow control coordinates the amount of data that can be sent before receiving an acknowledgment.
+
+Access Control: When a single communication channel is shared by multiple devices, the MAC sub-layer of the data link layer helps to determine which device has control over the channel at a given time.
 
 #### Network Layer
+The Network Layer is the 5th Layer from the top and the 3rd layer from the Bottom of the OSI Model. It is one of the most important layers which plays a key role in data transmission. The main job of this layer is to maintain the quality of the data and pass and transmit it from its source to its destination. It also handles routing, which means that it chooses the best path to transmit the data from the source to its destination, not just transmitting the packet. There are several important protocols that work in this layer.
+<img width="1012" height="1013" alt="osi-model-network-layer-3_1" src="https://github.com/user-attachments/assets/0b06d161-e32d-4559-bba5-442a9b9a2479" />
 
+##### functions of Network layer
+Some of the most important functions of the network layer are given below :
+1-Assigning Logical Address: It provides unique IP addresses to devices for identification and communication across networks.
+2-Packetizing: It encapsulates data into packets for efficient transmission.
+3-Host-to-Host Delivery: It ensures data is delivered from the sender to the intended receiver across networks.
+4-Forwarding: It is the process of moving packets from the input to the appropriate output interface in a router, based on the destination address
+5-Fragmentation and Reassembly: It splits large packets into smaller fragments for transmission and reassembles them at the destination.
+6-Logical Subnetting: It divides larger networks into smaller subnetworks for better management and routing efficiency.
+7-Network Address Translation (NAT): Maps private IP addresses to a public IP for internet access, conserving IPs and adding security.
+8-Routing: It determines the best path for packets to travel to their destination across multiple networks.
+
+##### How does the Network layer works?
+This entire process ensures reliable, step-by-step delivery of data across complex interconnected networks.
+*Every device gets a unique address (IP address) to identify it on the network.
+*Data is packaged into small packets, with labels showing where it’s coming from and where it’s going.
+*Routers figure out the best path to send the packets to their destination.
+*Packets travel step by step through different routers until they reach the right device.
+*If a packet is too big, it gets broken into smaller pieces to fit through the network.
+*At the destination, the pieces are put back together into the original data.
+*If something goes wrong, like the destination can’t be reached, an error message is sent back.
 
 #### Transport Layer
 
