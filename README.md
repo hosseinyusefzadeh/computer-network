@@ -76,7 +76,6 @@ Access Control: When a single communication channel is shared by multiple device
 
 #### Network Layer
 The Network Layer is the 5th Layer from the top and the 3rd layer from the Bottom of the OSI Model. It is one of the most important layers which plays a key role in data transmission. The main job of this layer is to maintain the quality of the data and pass and transmit it from its source to its destination. It also handles routing, which means that it chooses the best path to transmit the data from the source to its destination, not just transmitting the packet. There are several important protocols that work in this layer.
-<img width="1012" height="1013" alt="osi-model-network-layer-3_1" src="https://github.com/user-attachments/assets/0b06d161-e32d-4559-bba5-442a9b9a2479" />
 
 ##### functions of Network layer
 Some of the most important functions of the network layer are given below :
@@ -91,13 +90,21 @@ Some of the most important functions of the network layer are given below :
 
 ##### How does the Network layer works?
 This entire process ensures reliable, step-by-step delivery of data across complex interconnected networks.
+
 *Every device gets a unique address (IP address) to identify it on the network.
+
 *Data is packaged into small packets, with labels showing where it’s coming from and where it’s going.
+
 *Routers figure out the best path to send the packets to their destination.
+
 *Packets travel step by step through different routers until they reach the right device.
+
 *If a packet is too big, it gets broken into smaller pieces to fit through the network.
+
 *At the destination, the pieces are put back together into the original data.
+
 *If something goes wrong, like the destination can’t be reached, an error message is sent back.
+
 
 #### Transport Layer
 
