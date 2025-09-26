@@ -43,6 +43,7 @@ Physical Layer is responsible for transmitting individual bits from one node to 
 When receiving data, this layer will get the signal received and convert it into 0s and 1s and send them to the Data Link layer, which will put the frame back together.
 
 Common physical layer devices are Hub, Repeater, Modem, and Cables.
+##### Functions of Physical Layer
 
 #### Data Link Layer
 
