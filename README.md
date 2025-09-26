@@ -45,8 +45,11 @@ When receiving data, this layer will get the signal received and convert it into
 Common physical layer devices are Hub, Repeater, Modem, and Cables.
 ##### Functions of Physical Layer
 Bit Synchronization: The physical layer provides the synchronization of the bits by providing a clock. This clock controls both sender and receiver thus providing synchronization at the bit level.
+
 Bit Rate Control: The Physical layer also defines the transmission rate i.e. the number of bits sent per second.
+
 Physical Topologies: Physical layer specifies how the different, devices/nodes are arranged in a network i.e. bus topology, star topology, or mesh topology.
+
 ransmission Mode: Physical layer also defines how the data flows between the two connected devices. The various transmission modes possible are Simplex, half-duplex and full duplex.
 
 #### Data Link Layer
